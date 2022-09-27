@@ -1,19 +1,15 @@
 /* Element selectors */
 
-nav a {
-    color: whitesmoke;
-}
-
 nav a:hover {
     color: hotpink;
 }
 
-a:link { 
-    text-decoration: none; 
+a:link {
+    text-decoration: none;
 }
 
-a:active{
-    color: black;  
+a:active {
+    color: black;
 }
 
 html {
@@ -39,11 +35,16 @@ p {
 /* Class selectors */
 
 .art {
- padding: 2em;
+    padding: 2em;
 }
 
 .icon {
     font-size: 6rem;
+    color: black;
+}
+
+.icon:hover {
+    transform: scale(1.02);
 }
 
 .img-clamp {
@@ -53,8 +54,15 @@ p {
 
 .tumblr-img {
     max-height: 6rem;
+    position: relative;
+    top: 1.6em;
+    /* transform: translateY(1.6em); */
+}
+
+.tumblr-img:hover {
+    transform: scale(1.02);
     transform: translateY(1.6em);
+
 }
 
 /* id selectors */
-
