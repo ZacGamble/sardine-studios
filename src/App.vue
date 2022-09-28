@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <header class="sticky-top bg-white pb-4">
+  <header class="sticky-top pb-4">
     <img
       alt="logo"
       class="logo"
@@ -46,7 +46,6 @@ header {
 
 nav {
   width: 100%;
-  font-size: 12px;
   text-align: center;
   margin-top: 2rem;
 }

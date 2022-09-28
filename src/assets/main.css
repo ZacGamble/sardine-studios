@@ -12,6 +12,10 @@ body {
   flex-direction: column;
 }
 
+header {
+  background-color: var(--color-background-soft);
+}
+
 
 a,
 .green {

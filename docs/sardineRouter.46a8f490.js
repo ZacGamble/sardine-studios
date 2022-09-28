@@ -1,1 +1,0 @@
-import{_ as o,r,a as t,o as s,c as n}from"./index.31e7a234.js";const c={setup(){return r.push("/"),{}}};function a(p,u,_,i,f,d){const e=t("RouterView");return s(),n(e)}const l=o(c,[["render",a]]);export{l as default};
