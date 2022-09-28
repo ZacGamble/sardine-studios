@@ -1,5 +1,31 @@
 <template>
   <main class="container-fluid">
+    <div class="row">
+      <p class="px-5 py-3">
+        Sardine Studios LLC is an Asian, woman, and LGBTQ+ owned business that
+        provides art services of all kinds! <br />
+        Located in the Treasure Valley in Idaho, our main goal for this business
+        is to be able to bring the art community together here in Boise by
+        hosting art events and classes, sharing art with other art enthusiasts,
+        and giving back to the community with charities and fundrasing events.
+      </p>
+      <p class="px-5 py-3">
+        We collaborate with other local artists, businesses, and non-profit
+        organizations. <br />
+        We encourage other local businesses to work together so we can all
+        thrive as a community.
+      </p>
+      <p class="px-5 py-3">
+        We offer a wide variety of artistic services using both digital and
+        traditional mediums. <br />
+        We make art for personal and commercial purposes.
+        <em>If it involves art, we want to make it.</em> <br />
+        We also host local art events, art classes, workshops, as well as
+        non-profit events for local businesses. <br />
+        The proceeds are donated to help fund scholarship opportunities for art
+        students. <br />
+      </p>
+    </div>
     <div id="contact-me" class="row p-2 text-center">
       <h2>Let's get in touch:</h2>
       <div class="flex-column d-flex p-3 fw-bold fs-5">
@@ -30,8 +56,8 @@
           <div>
             <img
               class="tumblr-img"
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEX///8AAADQ0ND6+vpra2uIiIjDw8Px8fF+fn6Dg4Pr6+uvr6/u7u7l5eV4eHiXl5eMjIxLS0u1tbUfHx9ERERdXV1VVVX29vY1NTVxcXGpqamgoKDa2tosLCy+vr7T09MzMzNISEgmJiYbGxsODg5jY2NQUFDe3t48PDwUFBSQY/gZAAAEa0lEQVR4nO3d6VbiQBCG4SxsIhAMyCaGRQS9/xsc9TgOMpB0V9JdXXW+9/eM5hEIWTrdUeSwbnsSX21/7/LX+qtznfeVCuK6BBi/cG9dEy3KhPGAe/PqNywFxhvu7avffbkw4d6++o3UC5+1C7vlQAXCQr3wTr3wxvGaHmG/AihfmKsXttQLq4DihRv1wrF64V67sOLMSYHwSb3wTbvQ4E0qXJipF1YddYsXJgZA2cLKY1LpwrkJULTQZD8jW2gElCxcqReaAQULDV9CucLUEChXWHG3Qr7wZAoUK3zRLlwaA4UKK26KyheWDk3QIKy6YyhemJqc94oWTq2AAoWWQHnCoyVQmrBbMfBCvLD6TpNwodllC7nCxP4dKkq4fiT5xAiTGdEXxwX3tht0yuyOYn634N78itKk/V6D99mS23C7dJM91NR9te1wS66Uj9sWJ7nVPbZs6g1d++blI7c95HoHTP1iaDC3QLszXDe5/ega3fh0XOZUWPYIjK/aEEIIIXsQQgghfxBCCCF/EEIIIX8QQgghfxBCCCF/EEIIIX9uhSHcexo7FYZw/9DxNG9GzxW6re9WODd/1sBRd26BUZQ2OhDDPrd3gP8iL+vn5JFRx2Lw348ry4fverTxQwchY/c+M3vw9zLHO41mM35g7awn7o22yvSpyvMEvUcju+edIAwz/e9SCCEMP/1Cg4mvIAw8CCEMP8rjeRCGFYQQhh+E8oXVswZDGHoQQhh+EMoXtiGEMPgglC+sWvkIwvCDEMLwg1C+sAchhMEHIYThp//bAmdPEIYfhBCGn36h/m98CCEMPwghDD8IIQw/yvOHEIaVfiHlIXYIw4oynQSEYaVf+ArhlUJcZOZ2FKGsORUoy7O0uDfaKtICNNwbbRVpbTJRuxqSsMe91TbR1pebc2+2RdaLkH7ldu61ZqMJ4y73dptHFAr6wqAupUc9rvE/xdSOKIwpi+FtjgxrJ5KFB+v9adoi/2nqZLti9b8mlnub/Pv/+T5ceCML48PJ4vcMfz7wvs9M6CvKfrQy/S2Ds0t6voX1JoycGe0a+78uWfoWUkYqnDeq/DSuL/6IvoWUWZR+91q26+g/bS//vW9hE3MoH0b5ta+AYdG7tu63b2FjMww/jLK8k6w/2nTy1Xh5cyft/SoPbXn1GnkXUm4gyhJ6n8zc/7VI/ULfU337F/qekZ7hirnnvSmDMK/eKuHCaK9eWKgXRjv1wqF6IWkOF1nCaKFe2Fcv9HgAzjYKgDL5niyht70N40gOT+fCnGNV/LyKrKNxKNMmyxJ6OVdkHsgxqHGnxjD2ZXhcfxi33MAoOtFvKZpUcPs+o6w9Y9qMG/edswOcN27ZT6mbj6PbdSxtW/13X6xm+yy4cUabJlcUHIU5oDHNG7kifsxsBjV4LxnXumQ8HXcYVz80bVDc7Qi4WTs/CdD9NOxkr2Y7n+fdMivWwe1WDOueOsXTuNc6TreT98Mhjg/vk+fF9GHW6vXa2X2RDLvNvWx/AK2YXIjg45PWAAAAAElFTkSuQmCC"
-              alt=""
+              src="../assets/tumblr-logo.jpg"
+              alt="tumblr logo"
             />
           </div>
         </a>

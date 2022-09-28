@@ -1,8 +1,5 @@
 <template>
   <main class="container-fluid">
-    <div id="portfolio" class="row p-3 text-center">
-      <h2>Samples of my work:</h2>
-    </div>
     <div class="row">
       <div class="col-md-6">
         <div class="p-2 shadow rounded">

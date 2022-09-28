@@ -19,15 +19,15 @@ export default {
     <img
       alt="logo"
       class="logo"
-      src="./assets/sardine-logo.jpg"
+      src="./assets/main-logo.jpg"
       width="125"
       height="125"
     />
     <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/services">Services</RouterLink>
-      <RouterLink to="/portfolio">Portfolio</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/"><b>Home</b></RouterLink>
+      <RouterLink to="/services"> <b>Services</b> </RouterLink>
+      <RouterLink to="/portfolio"> <b>Portfolio</b> </RouterLink>
+      <RouterLink to="/about"> <b>About</b> </RouterLink>
     </nav>
   </header>
 

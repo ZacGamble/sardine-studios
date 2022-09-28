@@ -1,7 +1,8 @@
 <template>
   <main class="container-fluid">
+    <!-- Event header (month) -->
     <div id="schedule" class="row p-3 text-center">
-      <h2>Upcoming event schedule:</h2>
+      <h2>October event schedule:</h2>
     </div>
     <!-- Schedule row -->
     <div class="row">
