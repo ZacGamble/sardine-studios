@@ -1,29 +1,34 @@
 
 <script>
-import { ref } from 'vue'
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { ref } from "vue";
+import { RouterLink, RouterView } from "vue-router";
+import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
-    setup(){
-      let viewpositionY = ref(window.scrollY)
-        return {
-          viewpositionY,
-        }
-    }
-}
-
+  setup() {
+    let viewpositionY = ref(window.scrollY);
+    return {
+      viewpositionY,
+    };
+  },
+};
 </script>
 
 <template>
   <header class="sticky-top bg-white pb-4">
-    <img alt="Vue logo" class="logo" src="src/assets/sardine-logo.jpg" width="125" height="125" />    
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/services">Services</RouterLink>
-        <RouterLink to="/portfolio">Portfolio</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+    <img
+      alt="logo"
+      class="logo"
+      src="./assets/sardine-logo.jpg"
+      width="125"
+      height="125"
+    />
+    <nav>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/services">Services</RouterLink>
+      <RouterLink to="/portfolio">Portfolio</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
+    </nav>
   </header>
 
   <RouterView />
@@ -31,8 +36,7 @@ export default {
 
 <style scoped>
 header {
-  line-height: 1.5;  
-  
+  line-height: 1.5;
 }
 
 .logo {
@@ -91,5 +95,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 } */
-
 </style>
