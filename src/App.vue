@@ -1,20 +1,29 @@
-<script setup>
+
+<script>
+import { ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+    setup(){
+      let viewpositionY = ref(window.scrollY)
+        return {
+          viewpositionY,
+        }
+    }
+}
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="src/assets/sardine-logo.jpg" width="125" height="125" />
-
-    <div class="wrapper">
+  <header class="sticky-top bg-white pb-4">
+    <img alt="Vue logo" class="logo" src="src/assets/sardine-logo.jpg" width="125" height="125" />    
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/services">Services</RouterLink>
         <RouterLink to="/portfolio">Portfolio</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
-    </div>
   </header>
 
   <RouterView />
@@ -22,8 +31,8 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style scoped>
 header {
-  line-height: 1.5;
-  max-height: 100vh;
+  line-height: 1.5;  
+  
 }
 
 .logo {
@@ -56,7 +65,7 @@ nav a:first-of-type {
   border: 0;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
@@ -68,18 +77,19 @@ nav a:first-of-type {
   }
 
   header .wrapper {
-    display: flex;
+    display: flex; 
     place-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
   }
 
   nav {
-    text-align: left;
+    text-align: left; 
     margin-left: -1rem;
     font-size: 1rem;
 
     padding: 1rem 0;
     margin-top: 1rem;
   }
-}
+} */
+
 </style>

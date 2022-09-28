@@ -54,15 +54,12 @@ p {
 
 .tumblr-img {
     max-height: 6rem;
-    position: relative;
+    /* position: relative; */
     top: 1.6em;
-    /* transform: translateY(1.6em); */
 }
 
 .tumblr-img:hover {
-    transform: scale(1.02);
-    transform: translateY(1.6em);
-
+    transform: scale(1.04);
 }
 
 /* id selectors */

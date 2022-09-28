@@ -1,10 +1,8 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-import ScheduleView from './ScheduleView.vue';
+import TheWelcome from "../components/TheWelcome.vue";
+import ScheduleView from "./ScheduleView.vue";
 </script>
 
 <template>
-  <main>
-    <ScheduleView/>
-  </main>
+  <ScheduleView />
 </template>
