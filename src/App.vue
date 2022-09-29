@@ -2,11 +2,12 @@
 <script>
 import { ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+import router from "./router";
 
 export default {
   setup() {
     let viewpositionY = ref(window.scrollY);
+    // router.push("/sardine-studios");
     return {
       viewpositionY,
     };
@@ -24,7 +25,7 @@ export default {
       height="125"
     />
     <nav>
-      <RouterLink to="/"><b>Home</b></RouterLink>
+      <RouterLink to="/schedule"><b>Home</b></RouterLink>
       <RouterLink to="/services"> <b>Services</b> </RouterLink>
       <RouterLink to="/portfolio"> <b>Portfolio</b> </RouterLink>
       <RouterLink to="/about"> <b>About</b> </RouterLink>

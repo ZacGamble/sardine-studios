@@ -1,6 +1,9 @@
-# sardine-studios-vue
+# Build requirements for Github pages deployment
 
-This template should help get you started developing with Vue 3 in Vite.
+Image assets must be pulled out of the docs/assets folder into the 'docs' directory. Github expects a docs folder as the root.
+Image assets pathing must be changed to respect the docs directory build. 
+*(AboutView, PortfolioView, and main logo in index.js must all have /assets replaced with ./sardine-studios/*ASSET*/)
+
 
 ## Recommended IDE Setup
 
