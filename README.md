@@ -3,7 +3,7 @@
 Image assets must be pulled out of the docs/assets folder into the 'docs' directory. Github expects a docs folder as the root.
 Image assets pathing must be changed to respect the docs directory build. 
 *(AboutView, PortfolioView, index.js must all have /assets replaced with ./sardine-studios/*ASSET*/) 
-index.html must also have /assets removed from link hrefs
+index.html OR index.hash.js must also have /assets removed from link hrefs/ minified js
 
 
 ## Recommended IDE Setup
