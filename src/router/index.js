@@ -4,7 +4,11 @@ import { createRouter, createWebHistory } from 'vue-router'
 const router = createRouter({
   history: createWebHistory('sardine-studios'),
   routes: [
- 
+        {
+          path: '/',
+          name: 'sardine-studios',
+          component: () => import('../components/sardineRouter.vue')
+        },
         {
           path: '/schedule',
           name: 'schedule',
