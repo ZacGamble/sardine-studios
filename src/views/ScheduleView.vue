@@ -6,8 +6,8 @@
     </div>
     <!-- Schedule row -->
     <div class="row">
-      <div class="col-md-4">
-        <div class="shadow p-3 rounded">
+      <div class="col-md-6 col-xl-4 p-2">
+        <div class="shadow border-top p-3 rounded">
           <p class="text-wrap">
             October 1st, 2022 4:00PM-5:30PM <br />
             Kids of Chaos- 3D Beach Painting <br />
@@ -22,8 +22,8 @@
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="shadow p-3 rounded">
+      <div class="col-md-6 col-xl-4 p-2">
+        <div class="shadow border-top p-3 rounded">
           <p class="text-wrap">
             October 5th, 2022 6:00PM-8:00PM <br />
             Teen Art Exploration- Acrylic Mandala Dot Painting <br />
@@ -38,8 +38,8 @@
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="shadow p-3 rounded">
+      <div class="col-md-6 col-xl-4 p-2">
+        <div class="shadow border-top p-3 rounded">
           <p class="text-wrap">
             October 9th, 2022 7:00PM-10:00PM <br />
             Snake River Witch Academy Orientation <br />
@@ -49,8 +49,8 @@
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="shadow p-3 rounded">
+      <div class="col-md-6 col-xl-4 p-2">
+        <div class="shadow border-top p-3 rounded">
           <p class="text-wrap">
             October 12th, 2022 6:00PM-8:00PM <br />
             Teen Art Exploration- Acrylic Stencil Printmaking <br />
@@ -65,8 +65,8 @@
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="shadow p-3 rounded">
+      <div class="col-md-6 col-xl-4 p-2">
+        <div class="shadow border-top p-3 rounded">
           <p class="text-wrap">
             October 19th, 2022 6:00PM-8:00PM <br />
             Teen Art Exploration- Mixed Media Techniques <br />
@@ -81,8 +81,8 @@
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="shadow p-3 rounded">
+      <div class="col-md-6 col-xl-4 p-2">
+        <div class="shadow border-top p-3 rounded">
           <p class="text-wrap">
             October 22nd, 2022 7:00PM-10:00PM <br />
             Scary Movies and Art Night <br />
@@ -92,8 +92,8 @@
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="shadow p-3 rounded">
+      <div class="col-md-6 col-xl-4 p-2">
+        <div class="shadow border-top p-3 rounded">
           <p class="text-wrap">
             October 27th, 2022 6:00PM-7:30PM <br />
             Doodle Relay Race <br />
@@ -108,8 +108,8 @@
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="shadow p-3 rounded">
+      <div class="col-md-6 col-xl-4 p-2">
+        <div class="shadow border-top p-3 rounded">
           <p class="text-wrap">
             October 30th, 2022 3:00PM-7:00PM <br />
             Halloween Art Party <br />

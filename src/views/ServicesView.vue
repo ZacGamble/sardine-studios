@@ -48,5 +48,8 @@ export default {
 </script>
 
 
-<style lang="scss" scoped>
+<style scoped>
+li {
+  padding: 0.4rem 0;
+}
 </style>

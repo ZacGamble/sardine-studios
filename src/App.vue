@@ -25,19 +25,22 @@ export default {
       height="125"
     />
     <nav>
-      <RouterLink to="/schedule"><b>Home</b></RouterLink>
+      <RouterLink to="/"><b>Home</b></RouterLink>
       <RouterLink to="/services"> <b>Services</b> </RouterLink>
       <RouterLink to="/portfolio"> <b>Portfolio</b> </RouterLink>
       <RouterLink to="/about"> <b>About</b> </RouterLink>
     </nav>
+    <RouterView />
   </header>
-
-  <RouterView />
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
+}
+
+.background-img {
+  background-image: url(https://images5.alphacoders.com/103/thumb-1920-1036549.jpg);
 }
 
 .logo {
@@ -49,6 +52,7 @@ nav {
   width: 100%;
   text-align: center;
   margin-top: 2rem;
+  background-color: var(--color-background-soft);
 }
 
 nav a.router-link-exact-active {
@@ -68,31 +72,4 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
-
-/* @media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex; 
-    place-items: flex-start;
-    flex-wrap: wrap; 
-  }
-
-  nav {
-    text-align: left; 
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-} */
 </style>

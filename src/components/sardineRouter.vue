@@ -8,7 +8,7 @@ import router from "../router";
 
 export default {
   setup() {
-    router.push("/schedule");
+    router.push("/");
     return {};
   },
 };

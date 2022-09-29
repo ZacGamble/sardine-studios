@@ -1,1 +1,0 @@
-import{_ as o,r,a as t,o as s,c as n}from"./index.3cbe8a2e.js";const c={setup(){return r.push("/schedule"),{}}};function a(p,u,_,i,d,f){const e=t("RouterView");return s(),n(e)}const m=o(c,[["render",a]]);export{m as default};
