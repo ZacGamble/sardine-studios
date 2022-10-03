@@ -7,6 +7,11 @@ All affected import paths must be changed to respect the docs directory build.
 
 index.html OR index.js must also have /assets removed from link href/minified js
 
+    NOTE The schedule and services component imports in the docs/index.js file have an array holding references to index.js and style.css build files. (scoped styling?) 
+    Clear these arrays to match the portfolio and about imports.
+
+
+
 
 ## Recommended IDE Setup
 
